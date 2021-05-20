@@ -1,2 +1,2 @@
-# CoolApp-Android-Chat-Uygulamas-
+# CoolApp-Android-Chat-Uygulamasi-
 Detay icin pdf'yi okuyun
