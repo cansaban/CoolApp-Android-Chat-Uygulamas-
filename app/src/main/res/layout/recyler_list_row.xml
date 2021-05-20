@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:id="@+id/recycler_view_text_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="1dp"
+        android:layout_marginBottom="1dp"
+        android:background="#BEE2FF00"
+        android:drawableEnd="@android:mipmap/sym_def_app_icon"
+        android:fontFamily="@font/aclonica"
+        android:shadowColor="#0044FF"
+        android:text="Sohbet Mesajı"
+        android:textColor="#FF7300"
+        android:textSize="12sp"
+        android:textStyle="italic"></TextView>
+
+</FrameLayout>

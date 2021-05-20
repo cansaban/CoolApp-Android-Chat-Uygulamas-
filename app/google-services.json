@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "51560403943",
+    "firebase_url": "https://coolapp-e81db.firebaseio.com",
+    "project_id": "coolapp-e81db",
+    "storage_bucket": "coolapp-e81db.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:51560403943:android:03af2fb72ba4a0cbdae342",
+        "android_client_info": {
+          "package_name": "com.cansaban.coolapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "51560403943-db2i7ttcoec0rpbcnlaac5lv7kudktlb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD8Chdacl9n138mbslN7lgJNEMvPjc_ezI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "51560403943-db2i7ttcoec0rpbcnlaac5lv7kudktlb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

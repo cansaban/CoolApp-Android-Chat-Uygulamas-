@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/indir"
+    tools:context=".ChatActivity">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/recycler_view"
+        android:layout_width="0dp"
+        android:layout_height="0dp"
+        android:background="#2FFFEE00"
+        android:scrollbars="vertical"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+    <LinearLayout
+
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/recycler_view">
+
+
+        <EditText
+            android:id="@+id/chat_activity_message_text"
+            android:layout_width="319dp"
+            android:layout_height="60dp"
+            android:background="#2FFFEE00"
+            android:fontFamily="@font/aclonica"
+            android:hint="Mesajınızı Giriniz:"
+            android:inputType="text"
+            android:textAlignment="viewStart"
+            android:textSize="14sp"
+            android:textStyle="bold|italic"
+            tools:layout_editor_absoluteX="3dp"
+            tools:layout_editor_absoluteY="557dp" />
+
+        <Button
+            android:id="@+id/chat_activity_send_button"
+            android:layout_width="wrap_content"
+            android:layout_height="60dp"
+            android:background="@mipmap/ic_launcher"
+            android:backgroundTint="#2FFFEE00"
+            android:backgroundTintMode="src_atop"
+            android:drawableTint="#FFFFFF"
+            android:foregroundTint="#2FFFEE00"
+            android:onClick="sendMessage"
+            android:text="Gönder"
+            android:textAppearance="@style/TextAppearance.AppCompat.Body2"
+            android:textStyle="bold|italic"
+            tools:layout_editor_absoluteX="321dp"
+            tools:layout_editor_absoluteY="553dp" />
+
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
