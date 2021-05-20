@@ -1,2 +1,2 @@
 # CoolApp-Android-Chat-Uygulamasi-
-Detay icin CoolApp pdf'yi okuyun
+Detay icin CoolApp pdf'yi okuyunuz.
